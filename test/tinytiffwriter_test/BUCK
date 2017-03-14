@@ -1,0 +1,9 @@
+cxx_binary(
+  name = 'tinytiffwriter-test',
+  srcs = [
+    'main.cpp',
+  ],
+  deps = [
+    '//:tinytiff',
+  ],
+)

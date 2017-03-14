@@ -2,3 +2,9 @@ tinytiffreader.d
 tinytiffreader.o
 tinytiffwriter.d
 tinytiffwriter.o
+
+/buck-out/
+/.buckd/
+/buckaroo/
+.buckconfig.local
+BUCKAROO_DEPS

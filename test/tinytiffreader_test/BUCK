@@ -1,0 +1,9 @@
+cxx_binary(
+  name = 'tinytiffreader-test',
+  srcs = [
+    'main.cpp',
+  ],
+  deps = [
+    '//:tinytiff',
+  ],
+)
